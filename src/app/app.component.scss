@@ -1,0 +1,21 @@
+ nav {
+    margin: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  a {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #bfbfbf;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background: #ff4081;
+  }
+
+  .is-active {
+    color: #000;
+    border-bottom: 5px solid #007bff;
+  }

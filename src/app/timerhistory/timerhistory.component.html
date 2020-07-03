@@ -1,0 +1,8 @@
+<main class="container">
+    <h1>Your Timer History</h1>
+    <ul>
+        <li *ngFor="let t of times">
+            <mat-card>{{ t.time.minutes | twoDigits }}:{{ t.time.seconds | twoDigits }}</mat-card>
+        </li>
+    </ul>
+</main>
